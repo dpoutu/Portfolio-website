@@ -118,13 +118,9 @@ p{
 /* Hero text styling */
 .hero {
   font-family: 'Montserrat', sans-serif ;
-  position: relative;
   z-index: 2;
-  color: #fff;
-  margin-bottom: 20rem;
-  margin-right: 35rem;
+  color: #fff; 
   text-align: center;
-  max-width: 480px;
   border-radius: 10px; /* rounded corners (optional) */
   background: rgba(0, 0, 0, 0.4); /* subtle background behind text */
   backdrop-filter: blur(4px); /* adds a frosted glass effect */
@@ -134,13 +130,12 @@ p{
 
 /* Responsive text sizing for hero */
 .hero {
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right:auto;
+  width: 100%;
+
 }
 .hero h1 {
-  font-size: 0.9rem;
+  font-size: 5rem;
+  padding: 20rem 40rem 1rem 0;
 }
 .hero h2 {
   font-size: rem;
@@ -152,15 +147,12 @@ p{
 /* Responsive hero text for larger screens */
 @media (min-width: 768px) {
   .hero {
-    color: white;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right:auto;
+    width: 100%;
+    height: 30.75rem;
   }
   .hero h1 {
-    font-size: 2rem;
-    font-weight: 5000;
+    font-size: 5rem;
+   
     letter-spacing: 0.02em;
   }
   .hero h2 {
